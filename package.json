@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx servor --reload"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "preact/hooks": "*"
   },
   "devDependencies": {
+    "servor": "^3.1.0",
     "snowpack": "^1.0.5"
   }
 }
