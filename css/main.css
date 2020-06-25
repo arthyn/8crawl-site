@@ -56,3 +56,11 @@ form label {
 p + p {
 	margin-top: 1.5rem;
 }
+
+.error {
+	flex: 1 0 100%;
+	padding: 15px;
+	color: palevioletred;
+	background: pink;
+	border: palevioletred;
+}
